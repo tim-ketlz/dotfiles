@@ -1,7 +1,9 @@
 # Custom Terminal Shortcuts
 
+# Claude
+alias cdsp="claude --dangerously-skip-permissions"
+
 # Git
-alias ccc="git add . && git commit -m 'quick commit' && git push"
 alias gstatus="git status"
 alias gl="git log --oneline --graph --decorate -20"
 alias gd="git diff"
